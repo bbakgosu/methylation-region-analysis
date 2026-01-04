@@ -1,0 +1,8 @@
+# Python dependencies for Methylation Analysis Pipeline
+# Install with: pip install -r requirements.txt
+
+# Data analysis and manipulation
+pandas>=1.3.0
+
+# Note: modkit must be installed separately via conda or from source
+# See README.md for installation instructions

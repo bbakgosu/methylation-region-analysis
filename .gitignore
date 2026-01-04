@@ -1,0 +1,58 @@
+# Output directories
+output/
+results/
+*_output/
+
+# Intermediate files
+*.bedmethyl
+*.bed
+*.bedmethyl.gz
+*.bed.gz
+
+# Log files
+*.log
+
+# Summary files (optional - uncomment if you don't want to track these)
+# *_summary.txt
+# *_methylation_summary.txt
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+*.egg-info/
+dist/
+build/
+.eggs/
+
+# Virtual environments
+venv/
+env/
+ENV/
+.venv
+
+# Jupyter Notebook
+.ipynb_checkpoints
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Test data (uncomment if you add test data)
+# test_data/
+# *.bam
+# *.bam.bai
+
+# Temporary files
+tmp/
+temp/
+*.tmp
