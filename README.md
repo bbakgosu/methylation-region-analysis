@@ -71,7 +71,7 @@ python3 count_methylation_percent.py -h
 
 ```bash
 # Conda로 설치 (권장)
-conda install -c bioconda modkit
+conda install bioconda::ont-modkit
 
 # 또는 직접 다운로드
 # https://github.com/nanoporetech/modkit/releases
@@ -238,7 +238,7 @@ Error: modkit is not installed or not in PATH
 **해결 방법**:
 ```bash
 # Conda로 설치
-conda install -c bioconda modkit
+conda install bioconda::ont-modkit
 
 # 또는 PATH에 추가
 export PATH="/path/to/modkit:$PATH"

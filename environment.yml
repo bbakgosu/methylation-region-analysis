@@ -11,7 +11,7 @@ dependencies:
   - pandas>=1.3.0
 
   # Oxford Nanopore modkit
-  - modkit
+  - bioconda::ont-modkit
 
   # Optional: useful utilities
   - samtools  # For BAM file inspection and troubleshooting
