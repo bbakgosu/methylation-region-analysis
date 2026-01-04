@@ -1,4 +1,4 @@
-#!/usr/bin/env python3
+#!/usr/bin/env python
 """
 Regional Methylation Percentage Calculator
 특정 genomic region의 전체 methylation percentage를 계산하는 도구

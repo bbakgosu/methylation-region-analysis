@@ -62,7 +62,7 @@ conda activate methylation-analysis
 
 # 설치 확인
 modkit --version
-python3 count_methylation_percent.py -h
+python count_methylation_percent.py -h
 ```
 
 ### 2. 옵션 2: 개별 설치
@@ -155,7 +155,7 @@ chmod +x count_methylation_percent.py
 ### 예제 5: Python 스크립트만 사용 (bedMethyl 파일이 이미 있는 경우)
 
 ```bash
-python3 count_methylation_percent.py \
+python count_methylation_percent.py \
   -i sample_bedmethyl.bed \
   -r chr1:14923-15923
 ```

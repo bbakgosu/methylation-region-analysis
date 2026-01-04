@@ -171,7 +171,7 @@ REGION_DISPLAY="$REGION"  # Keep original for display
 
 # Check for required commands
 check_command "$MODKIT_CMD"
-check_command "python3"
+check_command "python"
 
 # Extract sample name from BAM file
 SAMPLE_NAME=$(basename "$BAM_FILE" .bam)
@@ -252,7 +252,7 @@ fi
 print_message "$YELLOW" "\n[Step 2/2] Analyzing regional methylation..."
 
 # Build Python command (use cleaned region without commas)
-PYTHON_CMD="python3 $PYTHON_SCRIPT -i $BEDMETHYL_FILE -r $REGION_CLEAN $SIMPLE_OUTPUT"
+PYTHON_CMD="python $PYTHON_SCRIPT -i $BEDMETHYL_FILE -r $REGION_CLEAN $SIMPLE_OUTPUT"
 
 if $VERBOSE; then
     echo "Command: $PYTHON_CMD"
