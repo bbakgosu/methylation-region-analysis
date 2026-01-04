@@ -39,7 +39,19 @@ Oxford Nanopore 시퀀싱 데이터에서 메틸화를 분석할 때, modkit은 
 
 ## 설치 방법
 
-### 옵션 1: Conda 환경 사용 (권장)
+### 1. 저장소 다운로드
+
+먼저 이 저장소를 다운로드합니다:
+
+```bash
+# Git으로 클론
+git clone https://github.com/bbakgosu/methylation-region-analysis.git
+
+# 디렉토리 이동
+cd methylation-region-analysis
+```
+
+### 2. 옵션 1: Conda 환경 사용 (권장)
 
 모든 의존성을 포함한 완전한 환경을 한 번에 설치:
 
@@ -53,7 +65,7 @@ modkit --version
 python3 count_methylation_percent.py -h
 ```
 
-### 옵션 2: 개별 설치
+### 2. 옵션 2: 개별 설치
 
 #### modkit 설치
 
@@ -73,7 +85,7 @@ pip install -r requirements.txt
 pip install pandas
 ```
 
-### 실행 권한 부여
+### 3. 실행 권한 부여
 
 ```bash
 chmod +x methylation_analysis.sh
